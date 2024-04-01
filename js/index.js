@@ -39,7 +39,7 @@ function pauseSong (){
   player.classList.remove('play')
   audio.pause()
   cover.classList.remove('play')
-  playBtn.innerText = 'Stop'
+  playBtn.innerText = 'Play'
 }
 
 playBtn.addEventListener('click',()=>{
