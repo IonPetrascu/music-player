@@ -20,8 +20,8 @@ let songIndex = 0
 //Init
 function loadSong(song){
   title.innerText = song
-  audio.src = `/audio/${song}.mp3`
-  cover.src = `/img/music-${songIndex + 1}.jpg`
+  audio.src = `./audio/${song}.mp3`
+  cover.src = `./img/music-${songIndex + 1}.jpg`
 }
 
 loadSong(songs[songIndex])
